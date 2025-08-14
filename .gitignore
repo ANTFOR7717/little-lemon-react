@@ -1,0 +1,39 @@
+# OS generated files #
+.DS_Store
+Thumbs.db
+
+# IDE and editor files #
+.idea/
+.vscode/
+*.swp
+
+# Dependency folders #
+node_modules/
+venv/
+packages/
+
+# Build outputs #
+dist/
+build/
+out/
+bin/
+target/
+*.o
+*.pyc
+*.class
+
+# Log files and databases #
+*.log
+*.sqlite
+*.db
+
+# Temporary files #
+*.tmp
+*.bak
+
+# Personal files #
+*.env
+
+# Ignore everything in a directory except one file
+temp/*
+!temp/important.txt
